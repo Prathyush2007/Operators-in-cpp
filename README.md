@@ -1,99 +1,79 @@
-Name: Prathyush Nimmagadda
-PRN: 24070123064 
+Name: Prathyush Nimmagadda  
+PRN: 24070123064  
 Batch: ENTC A3  
 
 # C++ Programs: Conditional Statements and Grading Logic
 
 ## Overview
 
-This document outlines the theoretical understanding of three beginner-level C++ programs that demonstrate conditional logic. These programs focus on computing averages, determining grades, and classifying numbers based on their sign (positive, negative, or zero). They help reinforce concepts such as input handling, arithmetic operations, and control flow using if, else if, and else statements.
+This document provides a theoretical explanation of three beginner-level C++ programs that showcase conditional decision-making. The focus is on calculating averages, determining letter grades, and classifying numbers by their sign (positive, negative, or zero). These examples reinforce essential skills such as user input, performing arithmetic, and applying if, else if, and else statements for flow control.
 
----
-
-## Program 1: Grade Calculation Based on Average Marks
+## Program 1: Grade Determination Using Average Marks
 
 ### Purpose
-The purpose of this program is to calculate the average of marks obtained in three subjects and assign a grade based on the calculated average.
+This program computes the average of marks scored in three subjects and assigns a grade based on that average.
 
-### Concepts Covered
-- Input Handling: Accepts marks for three subjects using input streams.
-- Arithmetic Operations: Computes the average of the marks using basic arithmetic.
-- Conditional Statements: Uses a series of if-else if-else conditions to determine the corresponding grade.
-- Character Data Type: Stores the final grade as a single character (e.g., 'A', 'B', 'C').
+### Key Concepts
+- Input Handling: Reads marks for three subjects via standard input.
+- Arithmetic Operations: Calculates the average with basic math.
+- Conditional Logic: Employs multiple if-else if-else branches to assign the correct grade.
+- Character Variable: Grade is saved as a single character like 'A' or 'B'.
 
-### Logic Summary
-- Accept three floating-point numbers representing marks.
-- Compute the average of the three marks.
-- Use conditionals to determine the grade based on the average:
-  - A: 90 and above
+### Logic Outline
+- User enters three floating-point numbers as marks.
+- The average is calculated from these three numbers.
+- Conditional logic assigns the grade as follows:
+  - A: 90 or above
   - B: 80 to 89
   - C: 70 to 79
   - D: 60 to 69
-  - F: below 60
-- Display the calculated average and the assigned grade.
+  - F: less than 60
+- The program outputs both the computed average and the grade.
 
 ### Output:
-Enter marks for 3 subjects: 32,65,76
-Average: 10.6667%
-Grade: F
+Enter marks for 3 subjects: 32,65,76  
+Average: 10.6667%  
+Grade: F  
 
-yaml
-Copy
-Edit
-
----
-
-## Program 2: Number Classification (Positive, Negative, or Zero)
+## Program 2: Number Sign Classification
 
 ### Purpose
-This program identifies whether a given integer is positive, negative, or zero using conditional statements.
+This program checks whether the given integer is positive, negative, or zero using conditional branching.
 
-### Concepts Covered
-- Input Handling: Accepts an integer from the user.
-- Conditional Logic: Uses if-else if-else to classify the number based on its value.
-- Output Message: Displays an appropriate message depending on the classification.
+### Key Concepts
+- Input Handling: Receives an integer from the user.
+- Conditional Statements: Uses if-else if-else structures to determine the number's sign.
+- Output Display: Shows a message based on the classification.
 
-### Logic Summary
-- Accept an integer input from the user.
-- Check the sign of the number:
-  - If greater than zero, it is positive.
-  - If less than zero, it is negative.
-  - If equal to zero, it is classified as zero.
-- Display the appropriate classification result.
+### Logic Outline
+- User inputs an integer.
+- The program checks:
+  - Positive if value is above zero,
+  - Negative if value is below zero,
+  - Zero if the value equals zero.
+- Displays the result accordingly.
 
 ### Output:
-Enter a number: 4
-The number is positive
+Enter a number: 4  
+The number is positive  
 
-yaml
-Copy
-Edit
-
----
-
-## Program 3: Repetition of Grade Calculation
+## Program 3: Duplicate of Grade Calculator
 
 ### Purpose
-This is a repetition of the first program and serves the same objective—to compute the average of three marks and determine the grade. It may be reused for reinforcement or additional practice.
+This program repeats the logic of the first program, recalculating averages and grades. It is used for additional practice or demonstration.
 
 ### Output:
-Enter x: 54
-Enter y: 64
-1st quadrant
-
-yaml
-Copy
-Edit
-
----
+Enter x: 54  
+Enter y: 64  
+1st quadrant  
 
 ## Conclusion
 
-These programs offer a clear introduction to conditional logic in C++. They help beginners learn how to:
+These C++ programs provide a strong starting point for understanding conditional logic. They help students:
 
-- Accept and process user input.
-- Perform arithmetic calculations.
-- Use conditional structures to make decisions.
-- Display output based on logical evaluation.
+- Gather and handle user input.
+- Compute results using arithmetic expressions.
+- Apply conditional logic to make decisions.
+- Output results based on condition checks.
 
-Such programs are foundational in learning how real-world problems can be approached through basic contr
+Such elementary programs establish the groundwork for solving real-world problems using basic control flow and logical structures.
